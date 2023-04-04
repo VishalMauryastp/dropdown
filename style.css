@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid red; */
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(76, 76, 229);
+}
+.dropdown {
+    background-color: aliceblue;
+    padding: 15px 20px;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px; 
+    overflow: hidden;
+    transition: all 450ms ease-in-out;
+}
+.dropdown ul li {
+    font-size: 20px;
+    padding: 10px 20px;
+    list-style: none;
+}
+.row11,.row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.row11{
+    background-color:rgb(91, 91, 240);
+    color: white;
+}
+.row1 {
+    gap: 15px;
+}
+.option{
+   max-width: 243px;
+   margin-top: 10px;
+   transition: all 300ms ease-in-out;
+   border-left:5px solid aliceblue;
+}
+ul .option:hover{
+    color:rgba(56, 56, 231) ;
+    border-left:5px solid rgb(91, 91, 240);
+    background-color:rgba(56, 56, 231, 0.3);
+    transform: translateX(10px);
+    width: 246px;   
+}
+span{
+    margin-left: 45px;
+}
+.active{
+    height: 310px
+}
